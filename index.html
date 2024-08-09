@@ -16,33 +16,44 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <figure class="card">
-      <div class="card__image-wrapper">
-        <img
-          class="card__image"
-          src="assets/images/image-qr-code.png"
-          alt="image-qr-code"
-        />
+    <main>
+      <figure
+        class="card"
+        role="group"
+        aria-labelledby="card-heading"
+        aria-describedby="card-description"
+      >
+        <div class="card__image-wrapper">
+          <img
+            class="card__image"
+            src="assets/images/image-qr-code.png"
+            alt="QR code leading to Frontend Mentor website"
+          />
+        </div>
+
+        <figcaption class="card__details-wrapper">
+          <h2 id="card-heading" class="card__heading">
+            Improve your front-end skills by building projects
+          </h2>
+          <p id="card-description" class="card__information">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </figcaption>
+      </figure>
+
+      <div class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/iamitshaw-007/qr-code-challenge"
+          >Amit Shaw</a
+        >.
       </div>
-
-      <figcaption class="card__details-wrapper">
-        <h2 class="card__heading">
-          Improve your front-end skills by building projects
-        </h2>
-        <p class="card__information">
-          Scan the QR code to visit Frontend Mentor and take your coding skills
-          to the next level
-        </p>
-      </figcaption>
-    </figure>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by
-      <a href="https://github.com/iamitshaw-007/qr-code-challenge">Amit Shaw</a
-      >.
-    </div>
+    </main>
   </body>
 </html>
