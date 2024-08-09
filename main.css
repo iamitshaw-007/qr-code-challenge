@@ -22,7 +22,7 @@ body {
 }
 
 .card {
-  max-width: min(60vw, 325px);
+  max-width: min(50vw, 325px);
   background-color: var(--color-white);
   padding: 1rem;
   border-radius: 1.25rem;
@@ -34,7 +34,7 @@ body {
   margin-bottom: 1.25rem;
 }
 .card__image {
-  max-width: min(60vw, 325px);
+  max-width: min(50vw, 325px);
 }
 
 .card__details-wrapper {
