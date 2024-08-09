@@ -32,4 +32,5 @@ The designs were created to the following widths:
 ### Screenshot
 
 - Final Finshed Product
-  ![](/images/qr-code-challenge.png)
+
+![](/images/qr-code-challenge.png)
