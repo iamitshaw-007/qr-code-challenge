@@ -42,6 +42,9 @@ body {
   text-align: center;
   font-weight: 400;
 }
+.card__heading {
+  color: var(--dark-blue);
+}
 
 .card__information {
   margin-block: 2rem;
